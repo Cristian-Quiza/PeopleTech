@@ -1,0 +1,108 @@
+2021-05-19/15:40:15.902 [main] DEBUG co.com.middleware.talos.cliente.ClienteServiciosPost[] - M�todo consumirServicio
+2021-05-19/15:40:16.376 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: default
+2021-05-19/15:40:16.382 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2021-05-19/15:40:16.383 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection request: [route: {}->http://192.168.10.130:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-05-19/15:40:16.394 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection leased: [id: 0][route: {}->http://192.168.10.130:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-05-19/15:40:16.395 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Opening connection {}->http://192.168.10.130:8080
+2021-05-19/15:40:16.505 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator[] - Connecting to /192.168.10.130:8080
+2021-05-19/15:40:16.526 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator[] - Connection established 172.16.10.77:51743<->192.168.10.130:8080
+2021-05-19/15:40:16.527 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Executing request POST /ords/talos/INFORMACION_DEMOGRAFICA/departamentos HTTP/1.1
+2021-05-19/15:40:16.527 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Target auth state: UNCHALLENGED
+2021-05-19/15:40:16.527 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Proxy auth state: UNCHALLENGED
+2021-05-19/15:40:16.528 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> POST /ords/talos/INFORMACION_DEMOGRAFICA/departamentos HTTP/1.1
+2021-05-19/15:40:16.529 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept: application/json,application/xml
+2021-05-19/15:40:16.529 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Connection: keep-alive
+2021-05-19/15:40:16.529 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2021-05-19/15:40:16.530 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept-Charset: utf-8
+2021-05-19/15:40:16.530 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept-Language: es,en,en-US,es-ES,es-MX
+2021-05-19/15:40:16.531 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Cache-Control: no-cache
+2021-05-19/15:40:16.531 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Content-Length: 20
+2021-05-19/15:40:16.531 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+2021-05-19/15:40:16.531 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Host: 192.168.10.130:8080
+2021-05-19/15:40:16.531 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-05-19/15:40:16.532 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "POST /ords/talos/INFORMACION_DEMOGRAFICA/departamentos HTTP/1.1[\r][\n]"
+2021-05-19/15:40:16.532 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept: application/json,application/xml[\r][\n]"
+2021-05-19/15:40:16.532 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2021-05-19/15:40:16.532 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2021-05-19/15:40:16.533 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2021-05-19/15:40:16.533 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2021-05-19/15:40:16.533 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2021-05-19/15:40:16.533 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Content-Length: 20[\r][\n]"
+2021-05-19/15:40:16.533 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-05-19/15:40:16.534 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Host: 192.168.10.130:8080[\r][\n]"
+2021-05-19/15:40:16.534 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-05-19/15:40:16.534 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "[\r][\n]"
+2021-05-19/15:40:16.534 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> " {"codigo_pais" : 1}"
+2021-05-19/15:40:16.818 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+2021-05-19/15:40:16.818 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-05-19/15:40:16.819 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-05-19/15:40:16.819 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "Date: Wed, 19 May 2021 20:39:02 GMT[\r][\n]"
+2021-05-19/15:40:16.819 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "[\r][\n]"
+2021-05-19/15:40:16.819 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "51[\r][\n]"
+2021-05-19/15:40:16.819 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "{"codigorespuesta":"1","mensajerespuesta":"Consumo correcto ","departamentos":[]}[\r][\n]"
+2021-05-19/15:40:16.821 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << HTTP/1.1 200 
+2021-05-19/15:40:16.821 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << Content-Type: application/json
+2021-05-19/15:40:16.821 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << Transfer-Encoding: chunked
+2021-05-19/15:40:16.821 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << Date: Wed, 19 May 2021 20:39:02 GMT
+2021-05-19/15:40:16.825 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Connection can be kept alive indefinitely
+2021-05-19/15:40:16.827 [main] INFO  co.com.middleware.talos.cliente.ClienteServiciosPost[] - Respuesta Correcta: 200
+2021-05-19/15:40:16.827 [main] INFO  co.com.middleware.talos.cliente.ClienteServiciosPost[] - Consumiendo el servicio del Servidor...
+2021-05-19/15:40:16.828 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "0[\r][\n]"
+2021-05-19/15:40:16.828 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "[\r][\n]"
+2021-05-19/15:40:16.829 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection [id: 0][route: {}->http://192.168.10.130:8080] can be kept alive indefinitely
+2021-05-19/15:40:16.829 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection[] - http-outgoing-0: set socket timeout to 0
+2021-05-19/15:40:16.829 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection released: [id: 0][route: {}->http://192.168.10.130:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-05-19/15:42:50.128 [main] DEBUG co.com.middleware.talos.cliente.ClienteServiciosPost[] - M�todo consumirServicio
+2021-05-19/15:42:50.485 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies[] - CookieSpec selected: default
+2021-05-19/15:42:50.494 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache[] - Auth cache not set in the context
+2021-05-19/15:42:50.496 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection request: [route: {}->http://192.168.10.130:8080][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2021-05-19/15:42:50.512 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection leased: [id: 0][route: {}->http://192.168.10.130:8080][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2021-05-19/15:42:50.515 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Opening connection {}->http://192.168.10.130:8080
+2021-05-19/15:42:50.520 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator[] - Connecting to /192.168.10.130:8080
+2021-05-19/15:42:50.541 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator[] - Connection established 172.16.10.77:51749<->192.168.10.130:8080
+2021-05-19/15:42:50.541 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Executing request POST /ords/talos/INFORMACION_DEMOGRAFICA/departamentos HTTP/1.1
+2021-05-19/15:42:50.541 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Target auth state: UNCHALLENGED
+2021-05-19/15:42:50.542 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Proxy auth state: UNCHALLENGED
+2021-05-19/15:42:50.544 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> POST /ords/talos/INFORMACION_DEMOGRAFICA/departamentos HTTP/1.1
+2021-05-19/15:42:50.545 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept: application/json,application/xml
+2021-05-19/15:42:50.546 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Connection: keep-alive
+2021-05-19/15:42:50.546 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2021-05-19/15:42:50.546 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept-Charset: utf-8
+2021-05-19/15:42:50.547 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept-Language: es,en,en-US,es-ES,es-MX
+2021-05-19/15:42:50.548 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Cache-Control: no-cache
+2021-05-19/15:42:50.548 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Content-Length: 20
+2021-05-19/15:42:50.548 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+2021-05-19/15:42:50.549 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Host: 192.168.10.130:8080
+2021-05-19/15:42:50.549 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2021-05-19/15:42:50.550 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "POST /ords/talos/INFORMACION_DEMOGRAFICA/departamentos HTTP/1.1[\r][\n]"
+2021-05-19/15:42:50.551 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept: application/json,application/xml[\r][\n]"
+2021-05-19/15:42:50.551 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2021-05-19/15:42:50.551 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2021-05-19/15:42:50.551 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2021-05-19/15:42:50.551 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept-Language: es,en,en-US,es-ES,es-MX[\r][\n]"
+2021-05-19/15:42:50.551 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2021-05-19/15:42:50.552 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Content-Length: 20[\r][\n]"
+2021-05-19/15:42:50.552 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-05-19/15:42:50.552 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Host: 192.168.10.130:8080[\r][\n]"
+2021-05-19/15:42:50.552 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-05-19/15:42:50.552 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> "[\r][\n]"
+2021-05-19/15:42:50.553 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 >> " {"codigo_pais" : 1}"
+2021-05-19/15:42:50.608 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+2021-05-19/15:42:50.608 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2021-05-19/15:42:50.608 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2021-05-19/15:42:50.608 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "Date: Wed, 19 May 2021 20:41:36 GMT[\r][\n]"
+2021-05-19/15:42:50.608 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "[\r][\n]"
+2021-05-19/15:42:50.608 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "51[\r][\n]"
+2021-05-19/15:42:50.609 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "{"codigorespuesta":"1","mensajerespuesta":"Consumo correcto ","departamentos":[]}[\r][\n]"
+2021-05-19/15:42:50.610 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << HTTP/1.1 200 
+2021-05-19/15:42:50.610 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << Content-Type: application/json
+2021-05-19/15:42:50.610 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << Transfer-Encoding: chunked
+2021-05-19/15:42:50.611 [main] DEBUG org.apache.http.headers[] - http-outgoing-0 << Date: Wed, 19 May 2021 20:41:36 GMT
+2021-05-19/15:42:50.614 [main] DEBUG org.apache.http.impl.execchain.MainClientExec[] - Connection can be kept alive indefinitely
+2021-05-19/15:42:50.615 [main] INFO  co.com.middleware.talos.cliente.ClienteServiciosPost[] - Respuesta Correcta: 200
+2021-05-19/15:42:50.616 [main] INFO  co.com.middleware.talos.cliente.ClienteServiciosPost[] - Consumiendo el servicio del Servidor...
+2021-05-19/15:42:50.616 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "0[\r][\n]"
+2021-05-19/15:42:50.616 [main] DEBUG org.apache.http.wire[] - http-outgoing-0 << "[\r][\n]"
+2021-05-19/15:42:50.617 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection [id: 0][route: {}->http://192.168.10.130:8080] can be kept alive indefinitely
+2021-05-19/15:42:50.617 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection[] - http-outgoing-0: set socket timeout to 0
+2021-05-19/15:42:50.617 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager[] - Connection released: [id: 0][route: {}->http://192.168.10.130:8080][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
